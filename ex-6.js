@@ -1,7 +1,11 @@
 // Exercise #6: Reverse the String
 let companyName = "TechUp Thailand";
 let reversedCompanyName = "";
+let length = companyName.length;
 
-// Start coding here
+while(length > 0){
+    reversedCompanyName += companyName[length-1];
+    length--;
+}
 
 console.log(reversedCompanyName);
